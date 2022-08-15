@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/super-market
+    password: 0075336
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
